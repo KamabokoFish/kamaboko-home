@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* when gradient is used as background, at some points gradient-tile has appered. */
+/* so, added background on :after element */
+body:after {
+  content: '';
+  position: fixed; /*固定配置*/
+  top: 0;
+  left: 0; /*左上に固定*/
+  width: 100%;
+  height: 100vh; /*vhを使わないとスマホでみたときに素早くスクロールするとずれる*/
+  z-index: -10;
+  //gradient css background
+  background-color: #4158d0;
+  background-image: linear-gradient(43deg, #4158d0 0%, #c850c0 46%, #e5960e 100%);
+}

@@ -1,7 +1,7 @@
-import React from 'react';
+import ProfileCard from '@components/ui/Cards/ProfileCard';
 
-const page = () => {
-  return <div>page</div>;
+const page: React.FC = () => {
+  return <ProfileCard />;
 };
 
 export default page;
