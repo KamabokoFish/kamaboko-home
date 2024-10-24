@@ -19,7 +19,7 @@ const ContentsCards: React.FC = () => {
       </Link>
       <Link
         href={'/'}
-        className="p-3 sm:p-6 aspect-square rounded-lg shadow-2xl relative text-white bg-gradient-to-br from-teal-500 to-amber-100  "
+        className="p-3 sm:p-6 aspect-square rounded-lg shadow-2xl relative text-white bg-gradient-to-br from-teal-500 to-rose-200  "
       >
         <h3 className="text-xl sm:text-4xl font-medium ">Works</h3>
         <small className="text-sm ">趣味で作ったもの</small>
