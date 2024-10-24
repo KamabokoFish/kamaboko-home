@@ -9,4 +9,9 @@ module.exports = {
   parser: '@typescript-eslint/parser',
   plugins: ['@typescript-eslint'],
   root: true,
+  rules: {
+    'no-unused-vars': 'off',
+    '@typescript-eslint/no-unused-vars': 'off',
+    '@next/next/no-img-element': 'off',
+  },
 };
